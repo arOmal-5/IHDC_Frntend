@@ -1,0 +1,122 @@
+.user-dashboard-product-component-container{
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+}
+.user-dashboard-product-component-header-container{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+}
+
+/* .admin-dashboard-overview-component-header-image{
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+} */
+.user-dashboard-product-component-header-container h3{
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+    
+}
+
+.user-dashboard-product-component-header-container-search{
+    padding: 5px;
+    border-radius: 5px;
+}
+.user-dashboard-product-component-table-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.user-dashboard-product-component-table-sub-container{
+    width: 100%;
+    max-width: 1000px;
+    background-color: aquamarine;
+
+}
+.user-dashboard-product-component-header-container-details-button{
+    background-color: #081d29;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+/* .admin-dashboard-overview-component-dropdown-list{
+    padding: 5px;
+    border-radius: 5px;
+    
+} */
+
+/* .admin-dashboard-overview-component-dashboardactivity{
+    width: 100%;
+    height:auto;
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,3fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+} */
+/* .admin-dashboard-overview-component-netcommission-container{
+    background-color: #eee9e9;
+    border-radius: 5px;
+    padding: 20px;
+
+} */
+/* .admin-dashboard-overview-component-netcommission{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+} */
+
+.user-dashboard-product-heading-container{
+    margin-bottom: 30px;
+}
+
+.user-dashboard-product-show-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr ;
+    grid-template-rows: repeat(1,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.user-dashboard-product-details-back-button{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px){
+    .user-dashboard-product-component-header-container{
+        flex-direction: column;
+    }
+    .user-dashboard-product-show-container{
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    .user-dashboard-welcome-heading{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .user-dashboard-vendor-heading{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .user-dashboard-vendor-description{
+        font-size: 10px;
+    }
+}

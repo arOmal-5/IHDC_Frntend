@@ -1,0 +1,65 @@
+.admin-dashboard-overview-component-container{
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+}
+.admin-dashboard-overview-component-header-container{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.admin-dashboard-overview-component-header-image{
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.admin-dashboard-overview-component-header-container h3{
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+    /* background-color: blue; */
+}
+.admin-dashboard-overview-component-dropdown-list{
+    padding: 5px;
+    border-radius: 5px;
+    /* border: none; */
+}
+
+.admin-dashboard-overview-component-dashboardactivity{
+    width: 100%;
+    height:auto;
+    display: grid;
+    /* background-color: brown; */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,3fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.admin-dashboard-overview-component-netcommission-container{
+    background-color: #f0eded;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+.admin-dashboard-overview-component-netcommission{
+    /* padding: 10px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+@media only screen and (max-width: 600px){
+    .admin-dashboard-overview-component-header-container{
+        flex-direction: column;
+    }
+    .admin-dashboard-overview-component-dashboardactivity{
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}

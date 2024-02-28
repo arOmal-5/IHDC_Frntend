@@ -1,0 +1,16 @@
+.user-dashboard-TransactionHistoryForParticularProduct-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .admin-dashboard-TransactionHistoryForParticularProduct-container{
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}

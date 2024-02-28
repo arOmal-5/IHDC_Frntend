@@ -1,0 +1,126 @@
+.user-dashboard-overview-component-container {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+}
+
+.user-dashboard-overview-component-header-container {
+    width: 100%;
+    height: auto;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* background-color: blue; */
+}
+
+.user-dashboard-overview-component-header-image {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.user-dashboard-overview-component-header-container h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.user-dashboard-overview-component-dropdown-list {
+    padding: 5px;
+    border-radius: 5px;
+    /* border: none; */
+}
+
+.user-dashboard-overview-component-dashboardactivity {
+    width: 100%;
+    height: auto;
+    display: grid;
+    /* background-color: brown; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 3fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.user-dashboard-overview-component-netcommission-container {
+    background-color: #ece9e9;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.user-dashboard-overview-component-netcommission {
+    /* padding: 10px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+/* .community-member-main-container {
+    width: 100%;
+    height: 300px;
+    background-color: #b6bbc1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+} */
+.community-member-main-container {
+    width: 100%;
+    height:auto;
+    background-color: #e3e8ed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    border-radius: 5px;
+  }
+  
+  .community-member-image {
+    width: 25%; 
+    max-height: 110%; 
+    border-radius: 5px; 
+    margin-right: 13px;
+  }
+  
+  .mySwiper {
+    width: 75%; 
+    height: 100%;
+  }
+
+  .swiperslide1{
+    width:15rem;
+    
+  }
+
+@media only screen and (max-width: 600px) {
+    .user-dashboard-overview-component-header-container {
+        flex-direction: column;
+    }
+
+    .user-dashboard-overview-component-dashboardactivity {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    
+    .community-member-main-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .community-member-image-container {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .community-member-description-container {
+        width: 100%;
+}
+}

@@ -1,0 +1,32 @@
+.super-admin-dashboard-main-container{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.super-admin-dashboard-sub-container{
+    width: 100%;
+    max-width: 800px;
+    height: 100vh;
+    /* background-color: rgb(227, 228, 228); */
+
+}
+.super-admin-dashboard-nav-item-header{
+    color: black;
+}
+.super-admin-dashboard-nav-item-header:hover{
+ color: black;
+}
+.superadmin-copyright-footer{
+    margin-top: -70px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

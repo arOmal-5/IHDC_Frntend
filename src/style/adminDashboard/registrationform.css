@@ -1,0 +1,39 @@
+/* .blur-effect {
+    filter: blur(0px); 
+    pointer-events: none; 
+  }
+
+  .blur-card {
+    filter: blur(3px); 
+    pointer-events: none; 
+  }
+   */
+   .registrtion-main-container{
+    width: 100%;
+    height:100vh;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    background-image: url('../../Assets/img/house.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   }
+
+   .email-container-checking-div{
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    /* background-color: aqua; */
+   }
+   /* style={{ maxWidth: '450px', width: '100%',backgroundColor:'#07170c'}} */
+   .registration-card{
+    width: 100%;
+    max-width: 550px;
+    background-color:#e6e6e6;
+   }
+
+   

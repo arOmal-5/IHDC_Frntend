@@ -1,0 +1,23 @@
+.superadmin-dashboard-add-organiser-container{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.superadmin-dashboard-add-organiser-add-button{
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #081d29;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 600px){
+
+    .superadmin-dashboard-add-organiser-container{
+        flex-direction: column;
+    }
+}

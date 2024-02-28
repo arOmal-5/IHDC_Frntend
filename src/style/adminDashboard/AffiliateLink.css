@@ -1,0 +1,26 @@
+.admin-dashboard-affiliatelink-input{
+    width: 100%;
+    max-width: 700px;
+    padding: 8px;
+}
+.admin-dashboard-affiliatelink-copy-button{
+    padding: 8px;
+    background-color: #081d29;
+    color: #ffffff;
+}
+.admin-dashboard-affiliatelink-creation-container{
+    width: 100%;
+    height: auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.admin-dashboard-affiliatelink-generate-link-button{
+    padding: 8px;
+    background-color:#074163;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
